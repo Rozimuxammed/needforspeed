@@ -1,0 +1,704 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #FFFF;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+body {
+    width: 100%;
+    background-color: #3F2E3E;
+    position: relative;
+}
+
+.body-img {
+    width: 1100px;
+    height: 700px;
+    object-fit: contain;
+    position: absolute;
+    left: 50px;
+    top: -55px;
+}
+.box {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0000007e;
+    padding: 100px 0;
+}
+
+.image {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 5%;
+    left: 3.3%;
+    cursor: pointer;
+}
+
+.box .heading {
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.box p {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding-top: 300px;
+    cursor: pointer;
+}
+
+.menu .menu-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu .menu-img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.menu .menu-img p {
+    font-size: 18px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+button {
+    padding: 10px 30px;
+    background-color: gold;
+    border-radius: 20px;
+    font-size: 18px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+}
+
+button img {
+    width: 20px;
+    height: 20px;
+}
+
+.nav-image {
+    width: 100px;
+    height: 100px;
+}
+
+.are-body {
+    background-color: #12141b;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+.area .are-img img {
+    width: 200px;
+}
+
+.are-img {
+    text-align: center;
+}
+
+.area .are-img p {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.area-cards {
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.area-card {
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.area-card img {
+    margin-bottom: 20px;
+}
+
+.area-card p {
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #f90404;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.area-card .are-span {
+    width: 300px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    text-transform: initial;
+}
+
+.red-left {
+    position: absolute;
+    bottom: -50px;
+    right: 0;
+    width: 150px;
+    height: 150px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #151924;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.navigatiya {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.back-button {
+    background-color: #ffcc00;
+    color: #000;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-weight: 600;
+}
+
+.back-button:hover {
+    background-color: #ffcc00b7;
+}
+
+.back-button:active {
+    transform: scale(0.8);
+    transition: 0.3s;
+}
+
+.uzbekistan-logo {
+    max-width: 100px;
+    height: 90px;
+}
+
+.profile i {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.type-many {
+    display: flex;
+    column-gap: 50px;
+    max-width: 500px;
+}
+
+.type-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+}
+
+.type-text img {
+    max-width: 300px;
+    height: 18px;
+}
+
+.type-text h2 {
+    max-width: 500px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.type-text p {
+    max-width: 500px;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.section-main {
+    display: flex;
+    align-items: center;
+    column-gap: 300px;
+    justify-content: center;
+}
+
+.section-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+}
+
+.line-text {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    column-gap: 30px;
+}
+
+.round-text {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    column-gap: 30px;
+}
+
+.line-text-span {
+    border: 1px solid red;
+    padding: 15px;
+    background-color: red;
+}
+
+.section-text h3 {
+    font-size: 50px;
+    max-width: 50px;
+    font-weight: 100;
+}
+
+.section-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+}
+
+.race-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.for-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.for-images .big-first-img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.change-images {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.change-images .small-imgs {
+    width: 200px;
+    height: 250px;
+    object-fit: contain;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.race-grounds {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.race-ground a {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.race-ground p {
+    font-size: 13px;
+    font-weight: 100;
+    font-family: sans-serif;
+    text-transform: initial;
+}
+
+.for-text-in-img {
+    width: 300px;
+}
+
+.race-image-fastLogo h1 {
+    font-size: 40px;
+}
+
+.race-ground span {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 22px;
+}
+
+.race-ground a:hover {
+    transform: scale(1.5);
+}
+
+.user-img {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    cursor: pointer;
+}
+
+.content-imgs .big-first-img {
+    width: 750px;
+    height: 400px;
+    object-fit: cover;
+    margin-top: 200px;
+}
+
+.content-imgs {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-text .content-text-img img {
+    width: 300px;
+}
+
+.content-text .content-text-img h1 {
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.content-text .race-ground {
+    width: 400px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.content-text .race-ground span {
+    padding: 27px;
+}
+
+.lists {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 115px;
+    position: relative;
+}
+
+.lists ul {
+    list-style: none;
+    line-height: 50px;
+}
+
+.lists ul li {
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.lists span {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    border: 2px solid violet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    font-size: 50px;
+    bottom: -45px;
+    left: -70px;
+}
+
+.cars {
+    width: 1200px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.car {
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+}
+
+.car img {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.car h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 100;
+    color: #f90404;
+}
+
+.car p {
+    font-size: 13px;
+    text-transform: initial;
+    line-height: 20px;
+}
+
+.about-cars {
+    width: 100%;
+    display: flex;
+}
+
+.about-car {
+    width: 100%;
+    height: 100vh;
+    background-color: #151924;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+.about-car-fastImg {
+    width: 200px;
+    margin-top: 40px;
+}
+
+.about-car-list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.about-car-list ul {
+    line-height: 60px;
+}
+
+.about-car-list ul li {
+    font-size: 30px;
+    list-style: none;
+    font-weight: 100;
+    text-transform: lowercase;
+}
+
+.about-car-title {
+    margin-left: 50px;
+    width: 30%;
+    margin-top: 100px;
+}
+
+.about-car-title h1 {
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.about-car-list ul:nth-child(1) li {
+    text-transform: uppercase;
+}
+
+.about-car-image {
+    width: 70%;
+}
+
+.about-car-image img {
+    width: 70%;
+    height: 100vh;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+}
+
+#about-car-icon {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    z-index: 1;
+}
+
+#about-car-navbar {
+    margin-top: 30px;
+}
+
+.users-title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.user-body {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.line-pink {
+    width: 100%;
+    height: 80px;
+    top: 45%;
+    position: absolute;
+    background: linear-gradient(#912BBC, #D6589F);
+    z-index: -1;
+}
+
+.users-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-card {
+    width: 350px;
+    text-align: center;
+    top: 38.5%;
+    margin-top: 130px;
+}
+
+.user-card img {
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.user-card h5 {
+    color: #d70598;
+    font-weight: 100;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    letter-spacing: .5px;
+}
+
+.user-card p {
+    text-transform: initial;
+    padding: 0 20px;
+    font-size: 13px;
+}
+
+.user-about {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    display: none;
+    background-color: #151924;
+}
+
+.user-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 300px;
+}
+
+.user-bio {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.user-bio .user-bio-img {
+    width: 400px;
+    height: 300px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.user-bio h3 {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.user-image p {
+    width: 300px;
+    margin-left: 20%;
+    text-transform: initial;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+
+.user-image h3 {
+    color: #f90404;
+    margin-left: 20%;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+.user-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.user-list ul {
+    list-style: none;
+    line-height: 55px;
+    text-align: justify;
+}
+
+.user-list ul li {
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.user-image img {
+    width: 350px;
+    height: 400px;
+}
